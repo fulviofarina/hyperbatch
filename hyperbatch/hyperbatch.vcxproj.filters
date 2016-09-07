@@ -47,11 +47,11 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Form1.resX">
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.MD" />
   </ItemGroup>
 </Project>
